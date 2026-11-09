@@ -236,7 +236,7 @@ jupyter notebook Rahma_Ashraf_Ali_Automobile_Data_Analysis_EDA.ipynb
 ### **Rahma Ashraf Ali Faragallah**
 **Data Scientist & AI Engineer**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([h](https://www.linkedin.com/in/rahma-faragallah-22b132321/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/USERNAME)
 
 ⭐ **If you found this useful, give the repo a star!** ⭐
