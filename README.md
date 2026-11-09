@@ -1,6 +1,24 @@
 <div align="center">
 
-![Banner](images/banner.png)
+<div align="center">
+
+# 🚗 Used Cars Price Analysis
+
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-3F4F75?logo=plotly)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)
+
+**An end-to-end data analysis and price prediction project on the US used car market**
+
+</div>
+
+<div align="center">
+    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7"
+         width="850"
+         alt="Luxury Car"/>
+</div>
 
 # 🚗 What Really Drives the Price of a Used Car?
 
