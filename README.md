@@ -82,7 +82,13 @@ flowchart LR
 
 ### 2️⃣ Age is king, and the first resale hurts the most
 
-![Age vs price](images/02_age_vs_price.png)
+```mermaid
+xychart-beta
+    title "Median price by car age"
+    x-axis "Car age (years)" [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+    y-axis "Median price ($)" 0 --> 32000
+    line [30341, 25640, 19661, 13568, 9884, 7620, 4857, 2287, 500, 500]
+```
 
 - A car loses roughly **14% of its value every year**.
 - Median price falls from **$28,840** (0-3 years) to **$13,143** (6-10 years) to **$5,774** (10-15 years).
@@ -90,15 +96,26 @@ flowchart LR
 
 ### 3️⃣ The accident trap (a lesson in confounding)
 
-![Accident effect](images/03_accident_effect.png)
-
+```mermaid
+xychart-beta
+    title "Real accident penalty within each age group (%)"
+    x-axis ["0-5 yrs", "6-10 yrs", "11-15 yrs", "16+ yrs"]
+    y-axis "Price drop (%)" 0 --> 30
+    bar [18, 19, 26, 24]
+```
 A naive comparison says cars with accidents sell for **$3,481** versus **$14,119** without, a 75% drop. **That is misleading.** Cars with accidents are simply *older*: the share of cars with an accident on record grows from **5%** (0-5 years) to **50%** (16+ years).
 
 Comparing cars **within the same age group** gives the honest answer: an accident costs about **18% to 26%**, not 75%.
 
 ### 4️⃣ Two worlds: luxury and everyone else
 
-![Brand tiers](images/04_brand_tiers.png)
+```mermaid
+xychart-beta
+    title "Median price by brand ($)"
+    x-axis ["Mercedes", "BMW", "Audi", "Chevrolet", "Ford", "Honda", "VW", "Toyota", "Nissan", "Hyundai"]
+    y-axis "Median price ($)" 0 --> 18000
+    bar [16575, 15940, 15556, 8118, 7477, 6619, 6130, 6017, 5836, 4359]
+```
 
 - Only three brands live in the premium tier: **Mercedes-Benz ($16,575), BMW ($15,940), Audi ($15,556)** (median prices).
 - Every other brand has a median **below $8,200**. Hyundai is the cheapest at **$4,359**.
@@ -237,7 +254,7 @@ jupyter notebook Rahma_Ashraf_Ali_Automobile_Data_Analysis_EDA.ipynb
 **Data Scientist & AI Engineer**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahma-faragallah-22b132321/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RahmaAshrafAli-Engineer)
 
 ⭐ **If you found this useful, give the repo a star!** ⭐
 
